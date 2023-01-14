@@ -64,6 +64,7 @@
 .content h1{
     font-size: 70px;
     margin-top: 80px;
+    font-size: 50px;
 
 }
 .content p{
@@ -72,7 +73,7 @@
     line-height: 25px;
 }
 
-button{
+/* button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -104,4 +105,4 @@ button:hover span{
 }
 button:hover{
     border: none;
-}
+} */
