@@ -12,45 +12,58 @@
     background-position: center;
 }
 
-.navbar{
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 50;
+    overflow: hidden;
+    background-color: #333333;
+
+    
 }
 
-.logo{
-    width: 120px;
-    cursor: pointer;
-    border-radius: 100px;
-}
-
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-}
-.navbar ul li a{
+.mail p a{
+    border: 4px solid rgb(58, 210, 237);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
     text-decoration: none;
-    color: rgb(8, 0, 0);
-    text-transform:uppercase ;
+    font-family: cursive;
+    font-style: italic;
 }
-.navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #0bf4dd;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: .5s;
+
+.navbar li{
+    float: right;
 }
-.navbar ul li:hover::after{
-    width: 100%;
+.navbar li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    text-align: right;
 }
+
+.navlogo span a{
+    display: block;
+    float: left;
+    margin: 10px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+.navlogo span a:hover{
+    background-color:  #111111;
+}
+.navbar li a:hover{
+    background-color:  #111111;
+}
+
+
 
 .content{
     width: 100%;
@@ -59,6 +72,7 @@
     transform: translateY(-50%);
     text-align: center;
     color: rgb(18, 1, 1);
+
 }
 
 .content h1{
@@ -67,11 +81,12 @@
     font-size: 50px;
 
 }
-/* .content p{
+.content p{
     margin: 20px auto;
     font-weight: 100;
-     line-height: 25px;
-} */
+    line-height: 25px;
+    font-weight: 700;
+}
 
 /* button{
     width: 200px;
