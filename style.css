@@ -88,36 +88,16 @@
     font-weight: 700;
 }
 
-/* button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #009688;
-    background: transparent;
-    color: #fff;
-    cursor: pointer; 
-    position: relative;
-    overflow: hidden;
+.footer{
+    padding: 50px;
+    display: block;
+
+    background-color: black;
+    text-align: center!important;
+    color: white;
+
 }
 
-span{
-    background: #009688;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
+.footer p{
+    font-size: 20px;
 }
-
-button:hover span{
-    width: 100%;
-}
-button:hover{
-    border: none;
-} */
