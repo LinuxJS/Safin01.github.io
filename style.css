@@ -187,7 +187,15 @@ html{
     color: black;
 }
 
+
+#cl{
+    font-size: 3.5rem;
+}
+
 @media (max-width:480px){
+    #cl{
+        font-size: 2rem;
+    }
     .navlogo span a{
         font-size: 20px;
         margin-top: 12px;
